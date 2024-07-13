@@ -1,0 +1,28 @@
+{
+  "cities": [
+    {
+      "id": "783e",
+      "cityName": "Maglizh",
+      "country": "Bulgaria",
+      "emoji": "🇧🇬",
+      "date": "2024-07-12T22:41:55.454Z",
+      "notes": "",
+      "position": {
+        "lat": "42.553080288955826",
+        "lng": "25.620117187500004"
+      }
+    },
+    {
+      "id": "eb10",
+      "cityName": "Cairo",
+      "country": "Egypt",
+      "emoji": "🇪🇬",
+      "date": "2024-07-12T23:42:05.354Z",
+      "notes": "",
+      "position": {
+        "lat": "29.99300228455108",
+        "lng": "31.376953125000004"
+      }
+    }
+  ]
+}
