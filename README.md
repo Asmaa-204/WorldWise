@@ -15,7 +15,7 @@ http://r7alah.netlify.app
 
 ## <span style="color: #67B7D1;">Demo</span>
 
-![Worldwise Demo](https://raw.githubusercontent.com/Asmaa-204/WorldWise/main/public/demo.mp4)
+![Worldwise Demo](/public/demo.mp4)
 
 ## <span style="color: #67B7D1;">Installation</span>
 
