@@ -1,8 +1,8 @@
 import { createContext, useContext, useReducer } from "react";
 
 const initialState = {
-  user: null,
-  isAuthenticated: false,
+  user: JSON.parse(localStorage.getItem("user")),
+  isAuthenticated: localStorage.getItem("isAuthenticated") === "true",
 };
 
 const FAKE_USER = {
@@ -34,10 +34,14 @@ function AuthProvider({ children }) {
   function login(email, password) {
     if (email === FAKE_USER.email && password === FAKE_USER.password) {
       dispatch({ type: "login", payload: FAKE_USER });
+      localStorage.setItem("isAuthenticated", true);
+      localStorage.setItem("user", JSON.stringify(FAKE_USER));
     }
   }
 
   function logout() {
+    localStorage.setItem("isAuthenticated", false);
+    localStorage.setItem("user", null);
     dispatch({ type: "logout" });
   }
 

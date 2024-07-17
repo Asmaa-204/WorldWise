@@ -1,27 +1,15 @@
 {
   "cities": [
     {
-      "id": "783e",
-      "cityName": "Maglizh",
-      "country": "Bulgaria",
-      "emoji": "🇧🇬",
-      "date": "2024-07-12T22:41:55.454Z",
+      "id": "1f72",
+      "cityName": "Bucharest",
+      "country": "Romania",
+      "emoji": "🇷🇴",
+      "date": "2024-07-17T16:21:58.157Z",
       "notes": "",
       "position": {
-        "lat": "42.553080288955826",
-        "lng": "25.620117187500004"
-      }
-    },
-    {
-      "id": "eb10",
-      "cityName": "Cairo",
-      "country": "Egypt",
-      "emoji": "🇪🇬",
-      "date": "2024-07-12T23:42:05.354Z",
-      "notes": "",
-      "position": {
-        "lat": "29.99300228455108",
-        "lng": "31.376953125000004"
+        "lat": "44.402391829093915",
+        "lng": "26.147460937500004"
       }
     }
   ]

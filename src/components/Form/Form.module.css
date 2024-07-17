@@ -42,3 +42,7 @@
   font-family: inherit;
   font-size: 1.2rem;
 }
+
+.row textarea:focus, input:focus {
+  outline: 2px solid var(--color-brand--2);
+}

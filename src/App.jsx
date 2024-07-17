@@ -8,13 +8,14 @@ const Pricing = lazy(() => import("./pages/Pricing"));
 const Product = lazy(() => import("./pages/Product"));
 const Login = lazy(() => import("./pages/Login"));
 const AppLayout = lazy(() => import("./pages/AppLayout"));
-const ProtectedRoute = lazy(() => import("./pages/ProtectedRoute"));
+const PageNotFound = lazy(() => import("./pages/PageNotFound"));
 
 import Cities from "./components/Cities/Cities";
 import Countries from "./components/Countries/Countries";
 import CityDetails from "./components/CityDetails/CityDetails";
 import Form from "./components/Form/Form";
 import SpinnerFullPage from "./components/SpinnerFullPage/SpinnerFullPage";
+import ProtectedRoute from "./pages/ProtectedRoute";
 
 import { CitiesProvider } from "./contexts/CitiesProvider";
 import { AuthProvider } from "./contexts/AuthenticationContext";
@@ -44,7 +45,7 @@ function App() {
                 <Route path="cities/:id" element={<CityDetails />} />
                 <Route path="form" element={<Form />} />
               </Route>
-              {/* <Route path="*" element={<PageNotFound />} /> */}
+              <Route path="*" element={<Navigate to="/app" />} />
             </Routes>
           </Suspense>
         </BrowserRouter>

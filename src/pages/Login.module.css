@@ -24,3 +24,7 @@
   flex-direction: column;
   gap: 0.5rem;
 }
+
+.row input:focus {
+  outline: 2px var( --color-brand--2) solid;
+}
