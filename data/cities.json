@@ -1,15 +1,15 @@
 {
   "cities": [
     {
-      "id": "1f72",
-      "cityName": "Bucharest",
-      "country": "Romania",
-      "emoji": "🇷🇴",
-      "date": "2024-07-17T16:21:58.157Z",
-      "notes": "",
+      "id": "7ef9",
+      "cityName": "Berlin",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2024-05-14T19:02:45.000Z",
+      "notes": "perfect",
       "position": {
-        "lat": "44.402391829093915",
-        "lng": "26.147460937500004"
+        "lat": "52.51622086393074",
+        "lng": "13.381347656250002"
       }
     }
   ]
